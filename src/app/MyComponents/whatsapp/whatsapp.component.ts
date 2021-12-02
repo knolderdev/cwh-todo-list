@@ -15,7 +15,7 @@ export class WhatsappComponent implements OnInit {
   }
 
   onSubmit(number: NgForm){
-    this.link = 'https://wa.me/917078146612'
+    this.link = 'https://wa.me/91' + number
     window.location.replace(this.link);
   }
 
