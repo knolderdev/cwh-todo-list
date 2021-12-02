@@ -8,6 +8,7 @@ import { TodoItemComponent } from './MyComponents/todo-item/todo-item.component'
 import { AddTodoComponent } from './MyComponents/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './MyComponents/about/about.component';
+import { WhatsappComponent } from './MyComponents/whatsapp/whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AboutComponent } from './MyComponents/about/about.component';
     TodosComponent,
     TodoItemComponent,
     AddTodoComponent,
-    AboutComponent
+    AboutComponent,
+    WhatsappComponent
   ],
   imports: [
     BrowserModule,
